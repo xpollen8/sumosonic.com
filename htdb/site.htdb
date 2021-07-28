@@ -1,0 +1,1407 @@
+#define	index.html
+	<head>
+	<title>Sumosonic Central</title>
+	</head>
+	<body bgcolor=#000000 link=#cfcfcf vlink=#cfcfcf text=#cfcfcf>
+	<div align=center>
+##live	if (random(2) == 1)
+#	<table border=0 height=70%><tr height=70%><td height=70%>
+#	<a href="${base_url}/main.html"><img border=1
+#		align=right hspace=10 vspace=10
+#		src="${images}/sumocar.gif"
+#		height=163 width=250 alt="This Is Cartoono"></a>
+#	</td></tr></table>
+##live	else
+	<table border=0 height=70%><tr height=70%><td height=70%>
+	<a href="${base_url}/main.html"><img border=1
+		align=right hspace=10 vspace=10
+		src="${images}/thumb_sumo.jpg"
+		height=290 width=200 alt="This Is Sumo"></a>
+	</td></tr></table>
+##live	endif
+	</div>
+
+#define	main.html
+	<head>
+	<title>Sumosonic Central</title>
+	</head>
+	${mSumoNav}
+	<p>
+	<div align=center>
+	<font color="#ffffff" face=arial size=4>-= This Is Sumosonic =-</font>
+	</div>
+	<br>
+	<br>
+	<a href="${images}/mitch_promo1.jpg"><img border=3
+		align=right hspace=10 vspace=10
+		src="${images}/smitch_promo1.jpg"
+		height=255 width=203 alt="This Is Sumo"></a>
+	<!-- a message of vital import; good luck, bub -->
+	<font size=0 color="#555555" face="geneva, verdana">
+	${morse(
+	Capitalists had finally strangled Comecon into ignominious submission.
+        To one or two of us it seemed that the Gulf War was just God's
+        way of showing the sad academic that History was, in fact, still
+        going on like a good'un.
+        Right now half the civilised people of the world seem to be
+        falling in an even bigger way for some nebulous nonsense centred
+        around the words "Asian" and "tiger". To speak of the vicious
+        and rapacious juntas of the Far East in such terms strikes the
+        writer as an infamous slur against tigers everywhere.
+	)}
+        <p>
+	${morse(
+	Tigers are
+        fierce and dangerous beasts of great power, but they are not
+        needlessly rapacious. Nor, so far as I am aware, has a tiger
+        ever presided over the systematic starving of hundreds of thousand
+        of its own kind. And besides, how many of the true tigers will
+        survive the demand in these so-called "tiger economies" for the
+        mutilated parts of murdered cats served to stunted retards who
+        follow some mediaeval blasphemy normally euphemised by the
+        politically correct as "traditional medicine"? Aphrodisiacs are
+        medicine, are they? Aphrodisiacs that are born of murder - what
+        a way to raise a family!
+	)}
+	</font>
+	${mAdj}
+
+#define	reviewSmith
+	Sumosonic
+	<b>This is Sumo</b>
+	(Creation Records)
+	<p>
+	To call Pat Fish the best British songwriter of the past
+	fifteen years is an invitation for some awfully suspicious stares.
+	Pat who?  But he might be just that.  Known since the early 1980s
+	as the Jazz Butcher, Fish remained detached enough to avoid the
+	indie-rock vortex of the last decade, dooming himself to obscurity
+	while leaving behind one of the most valuable buried treasures in
+	all of alternative music.  
+	<p>
+	Fish has joined with an all-new cast to form Sumosonic.  In what
+	may be a disappointment to long-time Jazz Butcher fans (they're
+	out there), this inaugural disk is decidedly un-Butcheresque, with
+	a keyboard-heavy attack of quasi-techno rhythms.  Pat was known
+	to dabble in reverb and noise, but the results were moody, melancholy
+	textures, quite unlike the flash of This is Sumo.
+	<p>
+	Never quite dance music, the tight compositions and good-natured
+	feistiness are a bit too mischievous for outright club-fare.
+	Consider the tongue-in- cheek ferocity of 'Monks of Kung Fu,'
+	(which some might liken to the Butcher's 'Do the Bubonic Plague,')
+	with its melodic grunting and hilarious Chinese sampling.  At times,
+	like on the gentle 'Cat's Life,' it's reminiscent of New Order-style
+	synth-pop, with dreamy, entrancing swirls set to a pulse- quickening
+	backbeat.  The snappy chorus of 'Come Friendly Spacemen' will have
+	you wearing out the repeat button, as will the balmy spells of
+	'Stupid,' and 'Destroy All Monsters' which are at once energetic
+	and disarmingly sweet.  The syrupy 'Sputnik,' meanwhile, is the
+	prettiest thing we've heard since 1993's 'Whaddya?'  Fish is no
+	less graceful with keyboards and effects than he was with acoustic
+	guitar.  
+	<p>
+	Considering Pat's long and productive past, it's hard to judge This
+	is Sumo as a true 'debut'.  But let's not get caught on Sumo-semantics.
+	No matter his band-mates or current moniker, the man still has genius
+	to share.  
+	<p>
+	- copyright 1997 patrick smith
+
+#define	words.html
+	<head>
+	<title>Sumosonic Words</title>
+	</head>
+	${mSumoNav}
+	<p>
+	<div align=center>
+	<font color="#ffffff" face=arial size=4>-= This Is Words =-</font>
+	</div>
+	<p>
+#	<font color="#ffffff" size=+1>The Headstone:</font>
+#	${mBlockStart}
+#	${mBlockEnd}
+	<font color="#ffffff" size=+1>A Review:</font>
+	${mBlockStart}
+	${reviewSmith}
+	${mBlockEnd}
+	<hr>
+	<font color="#ffffff" size=+1>The Lyrics:</font>
+	${mBlockStart}
+
+	<a name="Spacemen">
+	<font color=white size=+2><i>Come, Friendly Spacemen</i></font>
+		<a href="${base_url}/output.html#Spacemen">${icon_audio}</a>
+	<p>
+	<dl>
+	<dd>
+	Come, friendly spacemen, coz the world needs love
+	<br>Bring it on down like the Dove from above.
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		The <i>dove from above</i> comes down from above on the
+		inexplicable TV quiz entertainment
+		<a href="http://members.aol.com/VicReeves/stars/index.htm">&quot;Shooting
+		Stars&quot;</a>.<br>
+		No one in America can ever understand.
+		</font>
+		<br></td></tr></table>
+	Those spacemen think the world is a disgrace,
+	<br>And me, I agree - I have to live in the place.
+	<br>I'm a believer, a 24-hour fanatic.
+	<br>This is the voice of Audio-Aquatic.
+	<br>Give you bleeps from the Deep when you want to go to sleep.
+	<br>Sack your Temazepam, it makes me weep.
+	<p>
+	Come, friendly spacemen, come on down.
+	<p>
+	Come friendly spacemen, scoop the poop, sort it out!
+	<br>I don't want to have to scream and shout, but if I have to ...
+	<br>Well, you get the idea.  Come, friendly spacemen, coz we need you here.
+	<br>This world's in a state, it ain't getting any better.
+	<br>Maybe this message is a suicide letter.
+	<br>If it is, then Vale, Tchuss, Farewell!
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		Vale - Latin: <i>Farewell</i><br>
+		Tchuss - German: <i>Farewell</i>
+		</font>
+		<br></td></tr></table>
+	When the going gets ugly, then the ugly feel swell.
+	<p>
+	Come, friendly spacemen, come on down.
+	<p>
+	Come, friendly spacemen, when the Lords give a hoot,
+	<br>Coz you look so cute in your little space suits.
+	<br>"Orribile!" is what they say, and in a way they're right on the money.
+	<br>They're right on the money where money is the problem.
+	<br>You think they look funny and you think nothing of them.
+	<br>SHAME!  Because they're looking at you
+	<br>and they don't know if you're dangerous, or what they ought to do.
+	<p>
+	Come, friendly spacemen, come on down.
+	<p>
+	And if the world's all broken down,
+	<br>Watch the skies above your town.
+	<br>REMEMBER - Everyone's a stranger somewhere.
+	<br>Keep you faith and don't despair.
+	<br>Put your hands up in the air and call them.
+	<p>
+	Come, friendly spacemen, come on down.
+	<p>
+	</dd>
+	</dl>
+	<font color=white size=-1>${pat} 1995</font>
+	</a>
+
+	<hr>
+
+	<a name="Green">
+	<font color=white size=+2><i>God's Green Earth</i></font>
+		<a href="${base_url}/output.html#Green">${icon_audio}</a>
+	<p>
+	<dl>
+	<dd>
+	Nobody on God's green earth is going to miss you when you're gone.
+	<br>Nobody on God's green earth is going to miss you when you're gone.
+	<br>There ain't nobody's going to talk about you.  Ain't nobody can't do without you.
+	<br>There ain't nobody on God's green earth is going to miss you when you're gone.
+	<p>
+	Nobody on God's green earth is going to miss you when you're gone.
+	<br>There ain't nobody in the whole wide world is going to miss you when you're gone.
+	<br>There ain't no way you're coming back in here.  There ain't nobody's going to shed a tear.
+	<br>There ain't nobody on God's green earth is going to miss you when you're gone.
+	<p>
+	Fear of crime - instrument of control:
+	<br>If they frighten you enough you won't come out of your hole
+	<br>Because of the crime wave that's infesting the area.
+	<br>The Government wants to tell you things have never been scarier.
+	<br>What is the crime?  Who is the criminal?
+	<br>The questions have a message and it isn't subliminal.
+	<br>Right on the money, I spy the Slime:
+	<br>They're set to make a bundle on account of all the fear of crime.
+	<p>
+	(Third verse, same as the first)
+	<p>
+	Nobody on God's green earth is going to miss you when you're gone.
+	<br>Nobody on God's green earth is going to miss you when you're gone.
+	<br>There ain't nobody's going to talk about you.  Ain't nobody can't do without you.
+	<br>There ain't nobody on God's green earth is going to miss you when you're gone.
+	<br>When you're gone.
+	<p>
+	</dd>
+	</dl>
+	<font color=white size=-1>${pat} 1995</font>
+	</a>
+
+	<hr>
+
+	<a name="Monks">
+	<font color=white size=+2><i>Monks of Kung Fu</i></font>
+		<a href="${base_url}/output.html#Monks">${icon_audio}</a>
+	<p>
+	<dl>
+	<dd>
+	Monks of King Fu - They could do it for you.
+	<br>Monks of Kung Fu - What are you going to do?
+	<p>
+	Monks of Kung Fu - They could happen to you.
+	<br>Monks of Kung Fu - They're going to split you in two.
+	<br>Monks of Kung Fu - MURDER!
+	<br>Monks of Kung Fu
+	<br>Monks of Kung Fu
+	<br>Monks of Kung Fu.
+	<p>
+	</dd>
+	</dl>
+	<font color=white size=-1>${pat} 1996</font>
+	</a>
+
+	<hr>
+
+	<a name="Business">
+	<font color=white size=+2><i>Business and Work</i></font>
+		<a href="${base_url}/output.html#Business">${icon_audio}</a>
+	<p>
+	<dl>
+	<dd>
+	Yellow Pages!
+	<br>I've been here for ages, deep in the words of the Ancient Sages, 
+	<br>Avoiding the gaze of the pissed teenagers, trying to get through to the man with the pager.
+	<br>Deep undercover on a mission to the people: ever catch yourself wishing for the Facts,
+	<br>the facts that'll put you on the track of the messages they get from the satellite dish?
+	<p>
+	It's like the Pyramids of Ancient Egypt - you can see it, but you'll  never believe it.
+	<br>Dig a little deeper you will find Fortune favours the well-prepared mind
+	<br>Lost in a world of vibration, Church of the Aquatic Sound Foundation
+	<br>Bringing research as they dig in the dirt, continually monitored... by experts.
+	<p>
+	<b>Chorus</b>
+	<dl>
+	<dd>
+	And as the light begins to fail, and as you start to feel the cold,
+	<br>You see the future and it's not what you've been told
+	<br>Oh, get out and walk!  Look at the state of you!
+	<br>It's coming apart, et je m'en fous.
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		Je m'en fous:  literally <i>I fuck myself of it</i>.
+		<br>Actually used all the time in quite polite French to mean
+		<i>It means nothing to me</i>.
+		</font>
+		<br></td></tr></table>
+	</dd>
+	</dl>
+	<p>
+	Bad cells in the nation's bloodstream, moving through the system, clinging onto one dream
+	<br>Shared as it all falls apart.  Only the ignorant will want a fresh start.
+	<br>Another word from the Ancient Sages:  you don't keep a tiger in a ten-foot cage,
+	<br>It's wrong.  Now it's time to get along, little dogies, get along, sing your song:
+	<p>
+	<dl>
+	<dd>
+	JUSTICE AND SEMTEX, BUSINESS AND WORK
+	(Got to try a little harder)
+	<br>REPTILES AND INSECTS, BUSINESS AND WORK
+	(Get along, get along)
+	<br>A NICE DISTINCTION: BUSINESS AND WORK
+	(Got to push a little harder)
+	<br>CHAOS, EXTINCTION, BUSINESS AND WORK
+	(Get it on!)
+	</dd>
+	</dl>
+	<p>
+	<b>Chorus</b>
+	<br>(instrumental bit)
+	<br><b>Chorus</b>
+	<br><b>Chorus</b>
+	<p>
+	</dd>
+	</dl>
+	<font color=white size=-1>${pat} 1996</font>
+	</a>
+
+	<hr>
+
+	<a name="Monsters">
+	<font color=white size=+2><i>Destroy All Monsters</i></font>
+		<a href="${base_url}/output.html#Monsters">${icon_audio}</a>
+	<p>
+	<dl>
+	<dd>
+	What do you think has caused this?
+	<br>How did the monsters escape?
+	<br>Couldn't you foresee this?
+	<br>Paris  - the city's been invaded by
+	Godzilla!
+	<p>
+	Rodan,
+	Mothra,
+	Gojira,
+	Mururoa!
+	<p>
+	Si tu reves trop des monstres,
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		<i>If you dream too much about monsters,</i>
+		</font>
+		<br></td></tr></table>
+	Tu reveilleras les monstres.
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		<i>You will wake the monsters up.</i>
+		</font>
+		<br></td></tr></table>
+	Est-ce que tu connais ces monstres, vieux salaud?
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		<i>Do you know these monsters, you dirty old bastard?</i>
+		</font>
+		<br></td></tr></table>
+	<p>
+	As lovely as ever.
+	<br>Nothing much has changed.
+	<p>
+	The voice of Audio-Aquatic:  time to be specific.
+	<br>Do you think it's scientific when you poison the Pacific?
+	<br><a href="http://gurukul.ucc.american.edu/TED/mururoa.htm">Mururoa</a>,
+	east of Java:  another
+	<a href="http://volcano.und.nodak.edu/vwdocs/frequent_questions/grp7/asia/question879.html">Krakatoa</a>
+	with a different class of lava.
+	<p>
+	YOU MUST BE OUT OF YOUR MIND.
+	<p>
+	Cest pas trop sauvage, quoi?
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		<i>Not too fierce, huh?</i>
+		</font>
+		<br></td></tr></table>
+	Cest pas trop sauvage pour toi.
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		<i>Not too fierce for you, pal.</i>
+		</font>
+		<br></td></tr></table>
+	Est-ce que tu connais la loi, vieux canaille?
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		<i>Do you know the law, dirty old sod?</i>
+		</font>
+		<br></td></tr></table>
+	<p>
+	I have no idea.
+	<br>1964 - as lovely as ever.  Nothing much has changed.
+	<br>I have no idea.
+	<br>Nothing much has changed.
+	<br>I have no idea.
+	<br>The city is Paris.
+	<br>The city's been invaded by Godzilla.
+	<br>As lovely as ever.
+	<p>
+	Gojira, Gojira, Go!
+	<br>Gojira, Gojira, Go!
+	<br>Gojira, Gojira, Go!
+	<br>Go, Chirac! Go, Chirac, Go!
+	<p>
+	As lovely as ever.
+	<br>I have no idea.
+	<br>Nothing much has changed.
+	<p>
+	</dd>
+	</dl>
+	<font color=white size=-1>${pat} 1995</font>
+	</a>
+
+	<hr>
+
+	<a name="Stupid">
+	<font color=white size=+2><i>Stupid</i></font>
+		<a href="${base_url}/output.html#Stupid">${icon_audio}</a>
+	<p>
+	<dl>
+	<dd>
+	Two men with handguns in a stolen Granada;
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		Big Ford saloon car.  Often stolen
+		</font>
+		<br></td></tr></table>
+	Two more men with handguns in the public's heart.
+	<br>Two men with handguns are two men with handguns,
+	<br>What can you see that helps you tell them apart?
+	<p>
+	What ignorance is this?
+	<br>How can you possibly be so blind?
+	<br>Why don't you try to find your way back to your mind?
+	<p>
+	Sick and Hungry children in the Third World Nation;
+	<br>Sick and hungry children in the car outside.
+	<br>Sick and hungry children on a screen in Wembley Stadium:
+	<br>While you wondered who would drive her home a hundred more died.
+	<p>
+	What blasphemy is this?
+	<br>How could you possibly be so cruel?
+	<br>The only explanation:  You're a total fool.
+	<p>
+	Bright white: in his living room strip-light!
+	<br>This is the kind of guy who gets his clothes from Mister Byrite.
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		Crap clothes shop chain
+		</font>
+		<br></td></tr></table>
+	He fights the good fight - and you know he would fight:
+	<br>Remember the time that he got to hold an
+	<a href="http://www.armalite.com/">Armalite</a>?
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		British-made assault rifle, much abused in N. Ireland
+		</font>
+		<br></td></tr></table>
+	All bark, no bite, one-man lurch to the right:
+	<br>See the spite that he heaps on society.
+	<br>Gobshite, spite-ridden urban blight:
+	<br>They'll fetch you in the night and it will serve you right.
+	<p>
+	What ignorance is bliss?
+	<br>How can you possibly say that?
+	<br>How can you show your stupid face round here?
+	<p>
+	Hey stupid - you're too stupid to smoke.
+	<br>Hey stupid - is this all a horrible joke?
+	<br>Hey stupid - scratch!  Pay your stupid tax;
+	<br>It could be you on the end of the axe.
+	<br>Hey stupid - it's all a little Mickey Mouse.
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		as in: <i>it's all a bit bloody small-time</i>
+		</font>
+		<br></td></tr></table>
+	Na, Dummkopf - bitte bilden Sie sich aus.
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		German - <i>Please get yourself an education</i>
+		</font>
+		<br></td></tr></table>
+	Hey stupid - what do I have to say?
+	<br>For the sake of your health have a word with yourself.
+	<br>Hey, stupid!
+	<p>
+	</dd>
+	</dl>
+	<font color=white size=-1>${pat} 1996</font>
+	</a>
+
+	<hr>
+
+	<a name="Wonderful">
+	<font color=white size=+2><i>Everything Is Wonderful</i></font>
+		<a href="${base_url}/output.html#Wonderful">${icon_audio}</a>
+	<p>
+	<dl>
+	<dd>
+	Underneath the pavement lies the beach,
+	<br>That may not be forever out of reach.
+	<p>
+	Everything is wonderful!
+	<p>
+	I haven't heard that song for so damn long I can't remember how it goes.
+	<br>I can't get hold of all those big, dumb things that everybody knows.
+	<br>I can't believe that I was once depressed - I don't believe it shows.
+	<br>I don't believe that anything can hurt me now.
+	<p>
+	Everything is wonderful!
+	<p>
+	Underneath the pavement lies the beach,
+	<br>That may not be forever out of reach.
+	<br>The brightness of you shines from deep within:
+	<br>Walk up to the volcano and jump in.  Jump in!
+	<p>
+	Everything is wonderful!
+	<p>
+	Everything ... everything ...
+	<br>Everything is wonderful!
+	<p>
+	</dd>
+	</dl>
+	<font color=white size=-1>${pat} 1995</font>
+	</a>
+
+	<hr>
+
+	<a name="Fern">
+	<font color=white size=+2><i>Fern, Schnell, Gut</i></font>
+		<a href="${base_url}/output.html#Fern">${icon_audio}</a>
+	<p>
+	<dl>
+	<dd>
+	This is our thing - driving at night,
+	<br>Watching the movie, feeling all right.
+	<br>Piss alligator eyes at a quarter to three,
+	<br>Just me and The Government's Misery:
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		The Government's Misery is a close fiend of the band
+		<br>He is a plastic human skull on a stick.
+		</font>
+		<br></td></tr></table>
+	Bringing the goods from a far away land.
+	<br>Don't disrespect what you don't understand.
+	<p>
+	Fern, schnell, gut
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		German: <i>Far, Fast, Well</i>:
+		<br>The slogan of the German Trucker's Union.
+		</font>
+		<br></td></tr></table>
+	<p>
+	This is our thing - driving at night.
+	<br>Here come the
+	Geisterfahrer,
+	why don't you turn off the lights?
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		<i>Geisterfahrer</i> - German "ghost riders".
+		<br>Loonies on motorcycles who drive
+		the wrong way up the freeway with no lights.
+		</font>
+		<br></td></tr></table>
+	Pull in for Diesel and a palette of beers,
+	<br>Nobody sees us, nobody hears.
+	<br>We come and we go and we know what we know.
+	<br>Doing God's work in the rain and the snow.
+	<p>
+	Fern, schnell, gut
+	<br>also....
+	<p>
+	Fern, schnell, gut Jungs, das ist der Weg.
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		<i>Far, fast, well boys that is The Way.</i>
+		</font>
+		<br></td></tr></table>
+	Fern, schnell, gut - Jaegermeister direkt.
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		Far, fast, well - Jaegermeister direct.
+		</font>
+		<br></td></tr></table>
+	geradeaus, weder links noch rechts:
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		Straight ahead - neither left nor right
+		</font>
+		<br></td></tr></table>
+	autobahn Aquatic make the special effects.
+	<br>There's an old world out there waiting for me:
+	<br>Drive through the night with Lee Scratch Perry.
+		<br>
+		<table border=0 cellpadding=0 cellspacing=0><tr><td>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<br></td><td>
+		<font color=green>
+		The elephant from Outer Space.
+		</font>
+		<br></td></tr></table>
+	Border control pass into history.
+	<br>Fern, schnell, gut - let the people be free.
+	<p>
+	</dd>
+	</dl>
+	<font color=white size=-1>${pat} 1995</font>
+	</a>
+
+	<hr>
+
+	<a name="Cat">
+	<font color=white size=+2><i>Cat's Life</i></font>
+		<a href="${base_url}/output.html#Cats">${icon_audio}</a>
+	<p>
+	<dl>
+	<dd>
+	The world don't get any smaller than a world of your own.
+	<br>The world don't get any smaller - we just stay closer to home.
+	<br>There are ten million people the other side of that door,
+	<br>and every one wants something from a world that's shrunk to nothing.
+	<p>
+	So what could you expect if I promised you the world?
+	<br>What would you have left if I promised you the world?
+	<p>
+	This world don't get any smaller - that's just one of their lies.
+	<br>The world don't get any smaller - it stays the same size.
+	<br>If you could stand in my corner and see the world that I've known,
+	<br>You'd understand why I'm alone.  The lights are on, but no one's home.
+	<p>
+	So what could you expect if I promised you the world?
+	<br>What would you have left if I promised you the world?
+	<p>
+	Psychogeographic, geomagnetic:
+	<br>Fright-night uptight, psychokinetic.
+	<br>This life is a fiction, a television drama,
+	<br>I slip out the back with a little marijuana.
+	<br>Out of the rat-race, keeping to my own pace,
+	<br>I never remember names, but I recognise the face.
+	<br>Help you out here?  No - I couldn't do that;
+	<br>I've been alone too long, I think like a cat.
+	<br>I've got a cat's life.  Can you really say that's life?
+	<br>An air of despair you can cut with a pen-knife?
+	<br>What you want is what I despise.
+	<br>I see in the dark, coz the light hurts my eyes.
+	<br>Light hurts my eyes and my eyes hurt me:
+	<br>I can't bear to look upon the things I see.
+	<br>I see human vermin in a world of sin - 
+	<br>Look at the state that she left me in.
+	<p>
+	So what did you expect but a cat's life?
+	<br>What do you have left but a cat's life?
+	<br>Are you living at all?  Are you living with me?
+	<br>Are you never appalled at the things that you see?
+	<br>Are you hiding away?  Do you know what I mean
+	<br>When I say are you scared, are you hurt, are you burned or are you living a cat's life?
+	<p>
+	Ah, look at you - what did you expect but a cat's life?
+	<br>Ah, look at you - what did you expect but a cat's life?
+	<br>Ah, look at you!  Ah, look at you!  ah, look at you!
+	<br>Ah, look at you - what did you expect but a cat's life?
+	<p>
+	</dd>
+	</dl>
+	<font color=white size=-1>${pat} 1996</font>
+	</a>
+
+	<hr>
+
+	<a name="Ultimate">
+	<font color=white size=+2><i>My Ultimate Baby</i></font>
+		<a href="${base_url}/output.html#Ultimate">${icon_audio}</a>
+	<p>
+	<dl>
+	<dd>
+	Will you please enjoy
+	&quot;My Ultimate Baby&quot;?
+	<br>I love you.  I love you.  My ultimate baby.
+	<p>
+	My ultimate baby.  I love you, baby.
+	<br>My ultimate baby. (x3)
+	<br>I love you, baby.
+	<p>
+	You are my ultimate baby.
+	<p>
+	I love you.  My ultimate baby.
+	<br>My ultimate baby. (x2)
+	<br>My ultimate baby.  I love you, baby.
+	<br>My ultimate baby.
+	<br>My ultimate baby.  I love you baby.
+	<br>My ultimate baby.
+	<br>Music ...
+	<p>
+	You are my ultimate baby.
+	<p>
+	My ultimate baby.  I love you. (x3)
+	<br>Coz you're so nice to me.
+	<br>You are my ultimate baby.
+	<p>
+	I love you. (x10)
+	<br>Coz you're so nice to me.
+	<br>I love you, my ultimate baby.  I love you.
+	<br>My ultimate baby.
+	<p>
+	Thank you.  Thank you very much.
+	<p>
+	</dd>
+	</dl>
+	<font color=white size=-1>arranged by ${pat} words by 'Daniel Fantasy'</font>
+	</a>
+
+	<hr>
+
+	<a name="Traffic">
+	<font color=white size=+2><i>We Are The Traffic</i></font>
+		<a href="${base_url}/output.html#Traffic">${icon_audio}</a>
+	<p>
+	<dl>
+	<dd>
+	I'm over the top, Warren - I have cash now, I can operate now.
+	<br>Hot-diggety-dog!  It's me again!
+	<br>Listen - uh I got a little something on the Back-Door Lambada ...
+	<p>
+	The eyes of the gator are burning a hole
+	<br>In the refrigerator whose name is Excellence.
+	<p>
+	<b>Chorus</b>
+	<dl>
+	<dd>
+	We are the traffic, Darryl.  Whaddya think about that?
+	<br>We are the traffic, Darryl.  Stand there and look good.
+	<br>We are the traffic, Darryl.  Whaddya think about that?
+	<br>We are the traffic, Darryl.  Put that bible back.
+	<p>
+	Oh, Darryl ...
+	<br>Oh, Darryl ...
+	</dd>
+	</dl>
+	<p>
+	The gator likes what the gator sees; the gator bites and holds on.
+	<br>The gator likes what the gator sees; the gator bites and holds on.
+	<p>
+	<b>Chorus</b>
+	<p>
+	Darryl, eat the toast, Darryl.
+	<br>Darryl, eat the toast, Darryl.
+	<br>It's good to eat, so eat the toast.  In Cambodia they eat the toast.
+	<br>It's good to eat, so eat the toast.  In Cambodia they eat the toast.
+	<p>
+	<b>Chorus</b>
+	<p>
+	Oh, Darryl ...
+	<br>Oh, Darryl ...
+	<br>Oh, Handsome ...
+	<p>
+	The gator likes what the gator sees; the gator bites and holds on.
+	<br>The gator likes what the gator sees; the gator bites and holds on.
+	<p>
+	<b>Chorus</b>
+	<br><b>Chorus</b>	
+	<p>
+	</dd>
+	</dl>
+	<font color=white size=-1>${pat} 1991
+	Initially written at the
+	<a href="http://www.nitronic.com">Nitronic Research</a>
+	Wind Tunnels, Los Angeles, California.</font>
+	</a>
+
+	<hr>
+
+	<a name="Sputnik">
+	<font color=white size=+2><i>Sputnik</i></font>
+		<a href="${base_url}/output.html#Sputnik">${icon_audio}</a>
+	<p>
+	<dl>
+	<dd>
+	The satellites that circle us are witness to God's grace:
+	<br>He could pluck them from their orbits, cast them into Outer Space,
+	<br>But he lets them keep revolving as the Earth moves round the Sun,
+	<br>The only truly brilliant thing we've ever done.
+	<p>
+	Photographs of his creation - all the seas and land,
+	<br>Beamed to us from our space station help us understand.
+	<br>And the ladies in Los Angeles and the gentlemen in Perth
+	<br>See them up there, circling the Earth.
+	<p>
+	Take the People's Train to the Academy of Science.
+	<br>Use the People's instruments, do the People's work:
+	<br>Put it up there, circling the Earth.
+	<p>
+	We all know the space heroes like
+	<a href="http://nauts.com/histpace/vehicles/histvostok.html">Yuri Gargarin</a>,
+	<br>But unknown thousands gave their lives to bring us this machine.
+	<br>Now everybody knows what their sacrifice was worth,
+	<br>Coz it's up there, and it's circling the Earth.
+	<p>
+	The satellites that circle us shine brightly as Big Stars,
+	<br>They can see the Memphis soul men driving in their Big Black Cars,
+	<br>And if you call them on the phone you might just hear the sound
+	<br>Of the satellites as they go round and round.
+	<p>
+	Hear your voice repeating when you're talking on the phone,
+	<br>Know that they are up there, know that we are not alone.
+	<br>And one day we'll all know what this life of ours is worth
+	<br>Coz they're up there, circling the Earth.
+	<p>
+	Circling the Earth (x3)
+	<br>For ever
+	<br>For ever
+	<br>Circling the Earth
+	<br>Encircling the Earth
+	<br>For ever.
+	<p>
+	</dd>
+	</dl>
+	<font color=white size=-1>${pat} 1996</font>
+	</a>
+
+	<hr>
+
+	<a name="Saigon">
+	<font color=white size=+2><i>Radio Saigon</i></font>
+	<p>
+	<dl>
+	<dd>
+	Nothing lasts for ever:
+	<br>Even the Horror shall pass away.
+	<br>Beam it on in on me baby,
+	<br>And I'll be gone, gone, gone like Roy Orbison,
+	<br>Sign off for ever Radio Saigon.
+	<p>
+	Tune in, turn on
+	<br>Tune in, turn on
+	<br>Tune in, turn on:
+	<br>Radio Saigon
+	<p>
+	</dd>
+	</dl>
+	<font color=white size=-1>${pat} 1996</font>
+	</a>
+
+	<hr>
+
+	<a name="Star">
+	<font color=white size=+2><i>Hey, Star</i></font>
+	<p>
+	<dl>
+	<dd>
+	Hey, Star, come over me,
+	<br>Spit some light and steal my keys.
+	<br>Oh no - Susan took my wheels.
+	<br>The songs of your fast heart will tear this waiting world apart,
+	<br>Hey star, come over, over me,
+	<br>Come over me.  come over, over me.
+	<p>
+	The mind I got from Dad,
+	<br>I threw it in my favourite flood.
+	<br>Hey, Star - here I am.
+	<br>The heat you took from me
+	<br>It's okay - I draw from you:
+	<br>Took it from your blurring star,
+	<br>Your blurring star, your blurring star,
+	<br>Your blurring star.
+	<br>Your blurring star  - took it from you blurring star,
+	<br>Your blurring star, your blurring star, 
+	<br>Your blurring star.
+	<p>
+	</dd>
+	</dl>
+	<font color=white size=-1>
+	<a href="http://www.adjective.com/htdb/jbc/articles/1994/0315.html">Wolfgang Tschegg</a>
+	1993, arranged by Sumosonic</font>
+	</a>
+
+	${mBlockEnd}
+	${mAdj}
+
+#define	news.html
+	<head>
+	<title>Sumosonic News</title>
+	</head>
+	${mSumoNav}
+	<p>
+	<div align=center>
+	<font color="#ffffff" face=arial size=4>-= This Is News =-</font>
+	</div>
+	<p>
+#	<font color="#ffffff" size=+1>Site News:</font>
+#	${mBlockStart}
+#	The demo versions available here will soon be
+#	replaced by their album versions. 
+#	${mBlockEnd}
+	<font color="#ffffff" size=+1>Releases:</font>
+	${mBlockStart}
+	Album, &quot;This Is Sumo&quot; is released by CREATION
+	RECORDS on 26th JANUARY 1998. Catalog number is
+	CRECD 204. Please do make orders at your local record
+	store - you have no idea how much it helps us!
+	<p>
+	See ${linkExternal(http://www.sirendisc.com)}
+	${mBlockEnd}
+	<font color="#ffffff" size=+1>Upcoming Gigs:</font>
+	${mBlockStart}
+	Please see the <a href="${base_url}/live.html"><b>Live</b></a>
+	section for updates.
+	${mBlockEnd}
+	${mAdj}
+
+#define	product.html
+	<head>
+	<title>Sumosonic Product</title>
+	</head>
+	${mSumoNav}
+	<p>
+	<div align=center>
+	<font color="#ffffff" face=arial size=4>-= This Is Product =-</font>
+	</div>
+	<p>
+	See ${linkExternal(http://www.sirendisc.com)}
+	${mAdj}
+
+#define	output.html
+	<head>
+	<title>Sumosonic Output</title>
+	</head>
+	${mSumoNav}
+	<p>
+	<div align=center>
+	<font color="#ffffff" face=arial size=4>-= This Is Output =-</font>
+	</div>
+	<p>
+	<font color="#ffffff" size=+1>Current Releases:</font>
+	${mBlockStart}
+	Album, &quot;This Is Sumo&quot; is released by CREATION
+	RECORDS on 26th JANUARY 1998. Catalog number is
+	CRECD 204. Please do make orders at your local record
+	store - you have no idea how much it helps us!
+	<p>
+	See ${linkExternal(http://www.sirendisc.com)}
+	${mBlockEnd}
+	<font color="#ffffff" size=+1>Past Releases:</font>
+	${mBlockStart}
+	The first single <b>Come, Friendly Spacemen</b>,
+	released on 5th December 1996 by
+	Creation Records of London, distributed by 3M/VITAL. The
+	catalogue: CRESCD 242. 
+	<p>
+	The single features: 
+	<i>Come, Friendly Spacemen</i>, <i>Monks Of Kung Fu</i>,
+	and <i>Come, Friendly Spacemen</i> (version)
+	<p>
+	There is also a limited-edition vinyl 12&quot; single in the
+	clubs, featuring the long version of <i>Come, Friendly Spacemen</i>
+	alongside re-mixed by Tom Withers of drum n bass combo Override
+	and Johnny Octopus of Octopus Records. The &quot;Sushi&quot; mix
+	is a full on, dark-hearted progressive house tune with an evil
+	bass; the &quot;Jackson Hole&quot; Mix is an insane collision between
+	stadium pop and drum & bass which has to be heard to be believed.
+	The 12&quot; will also feature <i>Monks Of Kung Fu</i>.
+	Any DJ is urged to get in touch with Creation to get a copy. 
+	<p>
+	<b>Come, Friendly Spacemen</b> may be followed by a further single,
+	<b>God's Green Earth</b>.
+	${mBlockEnd}
+	<font color="#ffffff" size=+1>(Demo) Audio Tracks:</font>
+	${mBlockStart}
+	Please note - these versions are demo versions - not what ended up on
+	the release.
+	<br>These tracks are provided soley for their curiosity factor.
+	<table border=0 cellpadding=5 align=center width=90%>
+	<tr>
+		<td valign=top>
+			<a name="Spacemen">
+			<a href="${base_url}/words.html#Spacemen">
+			<i><font color=white>Come,
+			<nobr>Friendly Spacemen</font></i></nobr></a>
+			<br>
+			<a href="${audio}/come_friendly_spacemen.mp3"><font size=2 color="#00cc00">MP3</font></a>
+			</a>
+		</td>
+		<td valign=bottom>
+			The Single.  Catchy.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<a name="Monks">
+			<a href="${base_url}/words.html#Monks">
+			<nobr><i><font color=white>Monks
+			Of Kung Fu</font></i></nobr></a>
+			<br>
+			<a href="${audio}/monks_of_kung_fu.mp3"><font size=2 color="#00cc00">MP3</font></a>
+			</a>
+		</td>
+		<td valign=bottom>
+			B-side to the single.  Nice use of Chinese
+			and Tibetan samples.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<a name="Green">
+			<a href="${base_url}/words.html#Green">
+			<nobr><i><font color=white>God's
+			Green Earth</font></i></nobr></a>
+			<br>
+			<a href="${audio}/gods_green_earth.mp3"><font size=2 color="#00cc00"></font>MP3</a>
+			</a>
+		</td>
+		<td valign=bottom>
+			Slow, spooky, sparse beat.
+			Executive summary: <i>"Ain't nobody gonna miss
+			you when you're gone"</i>
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<a name="Business">
+			<a href="${base_url}/words.html#Business">
+			<nobr><i><font color=white>Business
+			And Work</font></i></nobr></a>
+			<br>
+			<a href="${audio}/business_and_work.mp3"><font size=2 color="#00cc00">MP3</font></a>
+			</a>
+		</td>
+		<td valign=bottom>
+			Whoooaa! Great beat, greater bassline.
+			<i>"anti-stupidity and environmentally friendly"</i>
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<a name="Monsters">
+			<a href="${base_url}/words.html#Monsters">
+			<nobr><i><font color=white>Destroy All Monsters </font></i></nobr></a>
+			<br>
+			<a href="${audio}/destroy_all_monsters.mp3"><font size=2 color="#00cc00">MP3</font></a>
+			</a>
+		</td>
+		<td valign=bottom>
+			French.  Samples.  Stupid fun.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<a name="Stupid">
+			<a href="${base_url}/words.html#Stupid">
+			<nobr><i><font color=white>Hey,
+			Stoopid!</font></i></nobr></a>
+			<br>
+			<a href="${audio}/hey_stoopid.mp3"><font size=2 color="#00cc00">MP3</font></a>
+			</a>
+		</td>
+		<td valign=bottom>
+			Sensitive ranting, light beat.
+			Good analogue synth sweeps.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<a name="Wonderful">
+			<a href="${base_url}/words.html#Wonderful">
+			<i><font color=white>Everything
+			<nobr>Is Wonderful</font></i></nobr></a>
+			<br>
+			<a href="${audio}/everything_is_wonderful.mp3"><font size=2 color="#00cc00">MP3</font></a>
+			</a>
+		</td>
+		<td valign=bottom>
+			The verses are superb, good beat.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<a name="Fern">
+			<a href="${base_url}/words.html#Fern">
+			<nobr><i><font color=white>Fern,
+			Schnell, Gut</font></i></nobr></a>
+			<br>
+			<a href="${audio}/fern_schnell_gut.mp3"><font size=2 color="#00cc00">MP3</font></a>
+			</a>
+		</td>
+		<td valign=bottom>
+			Dunno what this's about.  Low freq kick.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<a name="Cat">
+			<a href="${base_url}/words.html#Cat">
+			<nobr><i><font color=white>Cat's
+			Life</font></i></nobr></a>
+			<br>
+			<a href="${audio}/cats_life.mp3"><font size=2 color="#00cc00">MP3</font></a>
+			</a>
+		</td>
+		<td valign=bottom>
+			The (somewhat) Luv Song.  Nice bleeping synth hook
+		<br>
+		</td>
+	</tr>
+#	<tr>
+#		<td valign=top>
+#			<a name="Ultimate">
+#			<a href="${base_url}/words.html#Ultimate">
+#			<nobr><i><font color=white>My Ultimate Baby</font></i></nobr></a>
+#			<br>
+#			<a href="${audio}/my_ultimate_baby.mp3"><font size=2 color="#00cc00">MP3</font></a>
+#			</a>
+#		</td>
+#		<td valign=bottom>
+#			Restructured movie dialog samples by the sound of it.
+#		<br>
+#		</td>
+#	</tr>
+	<tr>
+		<td valign=top>
+			<a name="Traffic">
+			<a href="${base_url}/words.html#Traffic">
+			<nobr><i><font color=white>We Are The Traffic</font></i></nobr></a>
+			<br>
+			<a href="${audio}/we_are_the_traffic.mp3"><font size=2 color="#00cc00">MP3</font></a>
+			</a>
+		</td>
+		<td valign=bottom>
+			The beatings live on.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<a name="Sputnik">
+			<a href="${base_url}/words.html#Sputnik">
+			<nobr><i><font color=white>Sputnik</font></i></nobr></a>
+			<br>
+			<a href="${audio}/sputnik.mp3"><font size=2 color="#00cc00">MP3</font></a>
+			</a>
+		</td>
+		<td valign=bottom>
+			Sweet &amp; light.  Appears to concern satellites.
+		<br>
+		</td>
+	</tr>
+	</table>
+	${mBlockEnd}
+	<font color="#ffffff" size=+1>Illegal Video Samples:</font>
+	${mBlockStart}
+	<table border=0>
+	<tr>
+		<td valign=middle align=left>
+			1634K <a href="${video}/sumosonic_monks_of_kung_fu.mp4">
+				<i>Monks of Kung Fu</i></a>
+			<br>
+			1461K <a href="${video}/sumosonic_sputnik.mp4">
+				<i>Sputnik</i></a>
+			<br>
+			1655K <a href="${video}/sumosonic_gods_green_earth.mp4">
+				<i>God's Green Earth</i></a>
+		</td>
+		<td valign=middle>
+			<font size=-2 color=#00ff00> QuickTime videos </font>
+			<br>
+			<font size=-2> (thanks to Ward Travis for converting!) </font>
+		</td>
+
+	</tr>
+	</table>
+	${mBlockEnd}
+	<font color="#ffffff" size=+1>Illegal MIDI Soundfile:</font>
+	${mBlockStart}
+	<table border=0>
+	<tr>
+		<td valign=middle align=left>
+			33K <a href="${audio}/spacemen.mid">
+				<i>Come Friendly Spacemen</i></a>
+			<br>
+			This a midi file of the actual sequence used in the recording.
+		</td>
+	</tr>
+	</table>
+	${mBlockEnd}
+	${mAdj}
+
+#define	live.html
+	<head>
+	<title>Sumosonic Live</title>
+	</head>
+	${mSumoNav}
+	<p>
+	<div align=center>
+	<font color="#ffffff" face=arial size=4>-= This Is Live =-</font>
+	</div>
+	<p>
+#	<font color="#ffffff" size=+1>Upcoming gigs:</font>
+#	<font color="#ffffff" size=+1>What you can see:</font>
+	<font color="#ffffff" size=+1>What you've missed:</font>
+	${mBlockStart}
+	11Mar1997 - Live Debut: Powerhaus, London.
+	<p>
+	3Aug1997 - Sundaze Festival, Rushton Hall, Kettering,
+	Northamptonshire.
+	<p>
+	9Aug1997 - The Monarch, Camden, London NW1.
+	<p>
+	29Aug1997 - The Rockin' Horse, Northampton.
+	<br>&nbsp;&nbsp;&nbsp;&nbsp;<i>W/ D.J.  Johnny Octopus (Octopus Records) at the controls.</i>
+	<p>
+	17Jan1998 - Mole's Club, Bath - 01225333447 (tel).
+	<p>
+	20Jan1998 - Garage, London - onstage: 10pm
+	<p>
+	28Jan1998 - The Richmond, Brighton
+	<p>
+	30Jan1998 - Louisianna Club, Bristol
+	<p>
+	31Jan1998 - The Cavern, Exter
+	<p>
+	4Feb1998 - Black Bottom Club, Northampton
+	<br>&nbsp;&nbsp;&nbsp;&nbsp;<i>W/ D.J.  Johnny Octopus and other D.J.s</i>
+	<p>
+	14Apr1998 - 
+	Water Rats, Gray's Inn Rd, London
+	<p>
+	18Apr1998 - 
+	The Cy-Bar, Middle St, Brighton
+	<p>
+	8May1998 -
+	Lousianna Club, Wapping Rd, Bristol
+	<p>
+	1Aug1998 - Sundaze Festival, Rothwell, Northants, UK
+	<p>
+	8Sep1998 - The Concorde, Brighton
+	<br>
+	Brighton went rather well. Joe Foster came down and declared himself outraged
+	that Sumo wasn't making any money. From one Creation loony to another...howdy
+	ho!!
+	<p>
+	8Sep1998 - The Concorde, Brighton
+	19Sep1998 - APOCALYPSE SUMO
+	<div align=right>
+	<table border=0 cellpadding=0 cellspacing=5 width=90%>
+	<tr><td>When   </td><td> Saturday 19th September 1998</td></tr>
+	<tr><td>What    </td><td> All-night up-country old skool rave up.
+	Sumosonic, 2 other live bands and DJs
+	Outdoor concert space, with large pub attached.
+	Lots of easy parking.
+	Camping.
+	Pub has no clock! (That is to say, it's a Late One)</td></tr>
+	<tr><td>Where   </td><td> Saint John Arms, Melchbourne</td></tr>
+	<tr><td>How      </td><td> Melchbourne is near Rushden in the Northamptonshire/Cambridgeshire 
+	badlands. Take a car. From Northampton (M1 junction 15) take the
+	A-45
+	direction Wellingborough. Go on past Wellingborough to Higham
+	Ferrers.
+	At Higham Ferrers (Chowns Hill Roundabout) take the A-6
+	direction 
+	Bedford. After a couple of hundred yards, turn left onto
+	Kimbolton Road.
+	Follow signs on local roads for Newton Bromswold, then Yielden.
+	Follow 
+	the road through Yielden and on through open country for two or
+	three 
+	miles. The Saint John Arms stands alone in the middle of nowhere
+	at a 
+	crossroads. You'll be glad you made the trip, chaps. 
+	</td></tr>
+	</table>
+	</div>
+	${mBlockEnd}
+	<font color="#ffffff" size=+1>What has been captured:</font>
+	${mBlockStart}
+	From the Sumosonic live debut
+	at the Powerhaus, London Tuesday 11th March '97.
+	<p>
+	Snapped &amp; Copyright: John Devitofranceschi.
+	<p>
+	<a href="${images}/sumo1.jpg"><img
+		src="${images}/thumb_sumo1.jpg"
+		alt="[Debut Photo]" width=159 height=105 border=0></a>
+	<a href="${images}/sumo2.jpg"><img
+		src="${images}/thumb_sumo2.jpg"
+		alt="[Debut Photo]" width=159 height=105 border=0></a>
+	<a href="${images}/sumo3.jpg"><img
+		src="${images}/thumb_sumo3.jpg"
+		alt="[Debut Photo]" width=159 height=105 border=0></a>
+	<a href="${images}/sumo4.jpg"><img
+		src="${images}/thumb_sumo4.jpg"
+		alt="[Debut Photo]" width=159 height=105 border=0></a>
+	<a href="${images}/sumo5.jpg"><img
+		src="${images}/thumb_sumo5.jpg"
+		alt="[Debut Photo]" width=159 height=105 border=0></a>
+	<a href="${images}/sumo6.jpg"><img
+		src="${images}/thumb_sumo6.jpg"
+		alt="[Debut Photo]" width=159 height=105 border=0></a>
+	<a href="${images}/sumo7.jpg"><img
+		src="${images}/thumb_sumo7.jpg"
+		alt="[Debut Photo]" width=159 height=105 border=0></a>
+	<a href="${images}/sumo8.jpg"><img
+		src="${images}/thumb_sumo8.jpg"
+		alt="[Debut Photo]" width=159 height=105 border=0></a>
+	<a href="${images}/sumo9.jpg"><img
+		src="${images}/thumb_sumo9.jpg"
+		alt="[Debut Photo]" width=159 height=105 border=0></a>
+	<a href="${images}/sumo10.jpg"><img
+		src="${images}/thumb_sumo10.jpg"
+		alt="[Debut Photo]" width=159 height=105 border=0></a>
+	<a href="${images}/sumo11.jpg"><img
+		src="${images}/thumb_sumo11.jpg"
+		alt="[Debut Photo]" width=159 height=105 border=0></a>
+	${mBlockEnd}
+	${mAdj}

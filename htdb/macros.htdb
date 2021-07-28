@@ -1,0 +1,104 @@
+#define	base_url
+#define	images                  /images
+#define	audio			/audio
+#define	video			http://jazzbutcher.com/video/sumosonic
+
+#define	JBC_CSS
+#define	tag_beg	<h1>
+#define	tag_end	</h1>
+#define	linkFeedback	${base_url}/feedback
+
+#define	poweredb
+	<a href="http://www.htdb.org${base_url}"><img
+		src="http://www.htdb.org/images/poweredb.gif" width=119 height=22 border=0></a>
+
+#define	poweredw
+	<a href="http://www.htdb.org${base_url}"><img
+		src="http://www.htdb.org/images/poweredw.gif" width=119 height=22 border=0></a>
+
+#define powered
+	<a href="http://www.htdb.org${base_url}"><img
+		src="http://www.htdb.org/images/poweredByHTDB_1.gif"
+		width=88 height=31 border=0></a>
+
+#define	icon_audio
+	<img border=0 src="${images}/audio.gif" align=top
+		height=25 width=66 alt="Audio">
+#define	background
+	<body bgcolor="#000000" text="#aaaaaa" vlink="#fcfcfc" link="#cfcfcf">
+#define	pat	<a href="http://www.patfish.com">Pat Fish</a>
+
+#define	mBlockStart	<dl><dd>
+#define	mBlockEnd	</dd></dl>
+#define	mAdj
+	<br clear=all>
+	<br><br>
+	<p>
+	<div align=center>
+	<a href="${base_url}/main.html"><img border=0
+		hspace=10 vspace=10
+		src="${images}/sumo_logo.gif"
+		height=31 width=202 alt="Sumosonic"></a>
+	<br>
+	${poweredb}
+	<p>
+	Sumosonic recordings may be <a target="new"
+	href="http://www.fuzzlogic.com/cgi-local/argus.cgi?artist1=sumosonic&artist2=&title=&song=no&argustask=CDs+%28US%29">found on-line</a>
+	<br>
+	</div>
+
+#define	mSumoNav
+	<body bgcolor="#000000" text="#aaaaaa" vlink="#fcfcfc" link="#cfcfcf">
+	<div align=center>
+	<table border=0 cellspacing=0 cellpadding=10>
+	<tr>
+	<td>
+##live	if (getval(cgi->path_info) == words.html)
+#	<img name="words" border=0 width=131 height=31 src="${images}/h-words.gif"><p>
+##live	else
+	<a href="${base_url}/words.html"><img name="words" border=0 width=131 height=31 src="${images}/l-words.gif"></a><p>
+##live	endif
+##live	if (getval(cgi->path_info) == news.html)
+#	<img name="news" border=0 width=131 height=31 src="${images}/h-news.gif"><p>
+##live	else
+	<a href="${base_url}/news.html"><img name="news" border=0 width=131 height=31 src="${images}/l-news.gif"></a><p>
+##live	endif
+##live	if (getval(cgi->path_info) == product.html)
+#	<img name="product" border=0 width=131 height=31 src="${images}/h-product.gif">
+##live	else
+#	<a href="${base_url}/product.html"><img name="product" border=0 width=131 height=31 src="${images}/l-product.gif"></a>
+##live	endif
+	</td>
+	<td valign=middle align=right>
+	<a href="${base_url}/main.html"><img src="${images}/spaceman.gif" height=136 width=113 border=0></a>
+	</td>
+	<td valign=middle>
+##live	if (getval(cgi->path_info) == output.html)
+#	<img name="output" border=0 width=131 height=31 src="${images}/h-output.gif"><p>
+##live	else
+	<a href="${base_url}/output.html"><img name="output" border=0 width=131 height=31 src="${images}/l-output.gif"></a><p>
+##live	endif
+##live	if (getval(cgi->path_info) == live.html)
+#	<img name="live" border=0 width=131 height=31 src="${images}/h-live.gif"><p>
+##live	else
+	<a href="${base_url}/live.html"><img name="live" border=0 width=131 height=31 src="${images}/l-live.gif"></a><p>
+##live	endif
+##live	if (getval(cgi->path_info) == feedback)
+#	<img name="feedback" border=0 width=131 height=31 src="${images}/h-feedback.gif">
+##live	else
+#	<a href="${linkFeedback}"><img  name="feedback" border=0 width=131 height=31 src="${images}/l-feedback.gif"></a>
+##live	endif
+	</td>
+	</tr>
+	</table>
+	</div>
+
+#define	header
+	${mSumoNav}
+	<p>
+	<div align=center>
+	<font color="#ffffff" face=arial size=4>-= This Is Feedback =-</font>
+#	</div>
+#define	footer
+	</div>
+	${mAdj}
