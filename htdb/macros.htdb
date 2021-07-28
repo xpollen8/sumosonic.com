@@ -10,16 +10,7 @@
 
 #define	poweredb
 	<a href="http://www.htdb.org${base_url}"><img
-		src="http://www.htdb.org/images/poweredb.gif" width=119 height=22 border=0></a>
-
-#define	poweredw
-	<a href="http://www.htdb.org${base_url}"><img
-		src="http://www.htdb.org/images/poweredw.gif" width=119 height=22 border=0></a>
-
-#define powered
-	<a href="http://www.htdb.org${base_url}"><img
-		src="http://www.htdb.org/images/poweredByHTDB_1.gif"
-		width=88 height=31 border=0></a>
+		src="${images}/poweredb.gif" width=119 height=22 border=0></a>
 
 #define	icon_audio
 	<img border=0 src="${images}/audio.gif" align=top
@@ -41,10 +32,10 @@
 		height=31 width=202 alt="Sumosonic"></a>
 	<br>
 	${poweredb}
-	<p>
-	Sumosonic recordings may be <a target="new"
-	href="http://www.fuzzlogic.com/cgi-local/argus.cgi?artist1=sumosonic&artist2=&title=&song=no&argustask=CDs+%28US%29">found on-line</a>
-	<br>
+#	<p>
+#	Sumosonic recordings may be <a target="new"
+#	href="http://www.fuzzlogic.com/cgi-local/argus.cgi?artist1=sumosonic&artist2=&title=&song=no&argustask=CDs+%28US%29">found on-line</a>
+#	<br>
 	</div>
 
 #define	mSumoNav
