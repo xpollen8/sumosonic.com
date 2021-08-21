@@ -1,24 +1,27 @@
-#define	index.html
-	<head>
-	<title>Sumosonic Central</title>
-	</head>
-	<body bgcolor=#000000 link=#cfcfcf vlink=#cfcfcf text=#cfcfcf>
-	<div align=center>
-##live	if (random(2) == 1)
-#	<table border=0 height=70%><tr height=70%><td height=70%>
-#	<a href="${base_url}/main.html"><img border=1
-#		align=right hspace=10 vspace=10
-#		src="${images}/sumocar.gif"
-#		height=163 width=250 alt="This Is Cartoono"></a>
-#	</td></tr></table>
-##live	else
+#define	randomImage[0]
+	<table border=0 height=70%><tr height=70%><td height=70%>
+	<a href="${base_url}/main.html"><img border=1
+		align=right hspace=10 vspace=10
+		src="${images}/sumocar.gif"
+		height=163 width=250 alt="This Is Cartoono"></a>
+	</td></tr></table>
+#define	randomImage[1]
 	<table border=0 height=70%><tr height=70%><td height=70%>
 	<a href="${base_url}/main.html"><img border=1
 		align=right hspace=10 vspace=10
 		src="${images}/thumb_sumo.jpg"
 		height=290 width=200 alt="This Is Sumo"></a>
 	</td></tr></table>
-##live	endif
+
+#define	index.html
+	<head>
+	<title>Sumosonic Central</title>
+	</head>
+	<body bgcolor=#000000 link=#cfcfcf vlink=#cfcfcf text=#cfcfcf>
+	<div align=center>
+	${randomImage[${js(
+		return  `${(Math.random() < 0.5) ? 1 : 0}`;
+	)}]}
 	</div>
 
 #define	main.html
