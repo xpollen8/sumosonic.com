@@ -2,6 +2,9 @@
   "name": "sumosonic.com",
   "version": "0.0.2",
   "private": true,
+	    "engines" : {
+			        "node": ">=v17.x.x"
+							          },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,7 +13,7 @@
   "dependencies": {
     "copy-webpack-plugin": "^11.0.0",
     "HTDBjs": "git+https://github.com/xpollen8/HTDBjs.git",
-    "next": "^13.0.0",
+    "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }
