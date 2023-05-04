@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "copy-webpack-plugin": "^11.0.0",
-    "HTDBjs": "git+https://github.com/xpollen8/HTDBjs.git",
+    "HTDBjs": "https://github.com/xpollen8/HTDBjs.git",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
