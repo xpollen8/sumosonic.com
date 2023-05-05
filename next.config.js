@@ -12,19 +12,24 @@ module.exports = {
 	//future: {
 			//webpack5: true,
 	//},
-	webpack: function (config, { dev, isServer }) {
+	webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
 			// Fixes npm packages that depend on `fs` module
-			if (!isServer) {
-					config.resolve.fallback.fs = false
-			}
+			//if (!isServer) {
+					//config.resolve.fallback.fs = false
+			//}
 			// copy files you're interested in
-			if (!dev) {
+			//if (!dev) {
 					config.plugins.push(
 							new CopyPlugin({
-									patterns: [{ from: "htdb/**", to: "." }],
+									patterns: [
+										{
+											from: "./htdb/**",
+											to: "."
+										}
+									],
 							})
 					)
-			}
+			//}
 
 			return config
 	},
