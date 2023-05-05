@@ -8,7 +8,7 @@ module.exports = {
 	serverRuntimeConfig: {
 		PROJECT_ROOT: __dirname,
 	},
-	target: "server",
+	//target: "server",
 	//future: {
 			//webpack5: true,
 	//},

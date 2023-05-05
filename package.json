@@ -2,16 +2,16 @@
   "name": "sumosonic.com",
   "version": "0.0.5",
   "private": true,
-	    "engines" : {
-			        "node": ">=v17.x.x"
-							          },
+  "engines": {
+    "node": ">=v17.x.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "copy-webpack-plugin": "^6.0.0",
+    "copy-webpack-plugin": "^11.0.0",
     "HTDBjs": "https://github.com/xpollen8/HTDBjs.git",
     "next": "latest",
     "react": "^18.2.0",
