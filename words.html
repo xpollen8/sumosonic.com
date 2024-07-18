@@ -1,75 +1,31 @@
-#define	randomImage[0]
-	<table border=0 height=70%><tr height=70%><td height=70%>
-	<a href="${base_url}/main.html"><img border=1
-		align=right hspace=10 vspace=10
-		src="${images}/sumocar.gif"
-		height=163 width=250 alt="This Is Cartoono"></a>
-	</td></tr></table>
-#define	randomImage[1]
-	<table border=0 height=70%><tr height=70%><td height=70%>
-	<a href="${base_url}/main.html"><img border=1
-		align=right hspace=10 vspace=10
-		src="${images}/thumb_sumo.jpg"
-		height=290 width=200 alt="This Is Sumo"></a>
-	</td></tr></table>
-
-#define	index.html
-	<head>
-	<title>Sumosonic Central</title>
+<!DOCTYPE html><html><head>
+	<title>Sumosonic Words</title>
 	</head>
-	<body bgcolor=#000000 link=#cfcfcf vlink=#cfcfcf text=#cfcfcf>
+	<body bgcolor="#000000" text="#aaaaaa" vlink="#fcfcfc" link="#cfcfcf">
 	<div align=center>
-	${randomImage[${js(
-		return  `${(Math.random() < 0.5) ? 1 : 0}`;
-	)}]}
+	<table border=0 cellspacing=0 cellpadding=10>
+	<tr>
+	<td>
+	<a href="words.html"><img name="words" border=0 width=131 height=31 src="images/l-words.gif"></a><p>
+	<a href="news.html"><img name="news" border=0 width=131 height=31 src="images/l-news.gif"></a><p>
+	</td>
+	<td valign=middle align=right>
+	<a href="main.html"><img src="images/spaceman.gif" height=136 width=113 border=0></a>
+	</td>
+	<td valign=middle>
+	<a href="output.html"><img name="output" border=0 width=131 height=31 src="images/l-output.gif"></a><p>
+	<a href="live.html"><img name="live" border=0 width=131 height=31 src="images/l-live.gif"></a><p>
+	</td>
+	</tr>
+	</table>
 	</div>
-
-#define	main.html
-	<head>
-	<title>Sumosonic Central</title>
-	</head>
-	${mSumoNav}
 	<p>
 	<div align=center>
-	<font color="#ffffff" face=arial size=4>-= This Is Sumosonic =-</font>
+	<font color="#ffffff" face=arial size=4>-= This Is Words =-</font>
 	</div>
-	<br>
-	<br>
-	<a href="${images}/mitch_promo1.jpg"><img border=3
-		align=right hspace=10 vspace=10
-		src="${images}/smitch_promo1.jpg"
-		height=255 width=203 alt="This Is Sumo"></a>
-	<!-- a message of vital import; good luck, bub -->
-	<font size=0 color="#555555" face="geneva, verdana">
-	${morse(
-	Capitalists had finally strangled Comecon into ignominious submission.
-        To one or two of us it seemed that the Gulf War was just God's
-        way of showing the sad academic that History was, in fact, still
-        going on like a good'un.
-        Right now half the civilised people of the world seem to be
-        falling in an even bigger way for some nebulous nonsense centred
-        around the words "Asian" and "tiger". To speak of the vicious
-        and rapacious juntas of the Far East in such terms strikes the
-        writer as an infamous slur against tigers everywhere.
-	)}
-        <p>
-	${morse(
-	Tigers are
-        fierce and dangerous beasts of great power, but they are not
-        needlessly rapacious. Nor, so far as I am aware, has a tiger
-        ever presided over the systematic starving of hundreds of thousand
-        of its own kind. And besides, how many of the true tigers will
-        survive the demand in these so-called "tiger economies" for the
-        mutilated parts of murdered cats served to stunted retards who
-        follow some mediaeval blasphemy normally euphemised by the
-        politically correct as "traditional medicine"? Aphrodisiacs are
-        medicine, are they? Aphrodisiacs that are born of murder - what
-        a way to raise a family!
-	)}
-	</font>
-	${mAdj}
-
-#define	reviewSmith
+	<p>
+	<font color="#ffffff" size=+1>A Review:</font>
+	<dl><dd>
 	Sumosonic
 	<b>This is Sumo</b>
 	(Creation Records)
@@ -110,31 +66,14 @@
 	to share.  
 	<p>
 	- copyright 1997 patrick smith
-
-#define	words.html
-	<head>
-	<title>Sumosonic Words</title>
-	</head>
-	${mSumoNav}
-	<p>
-	<div align=center>
-	<font color="#ffffff" face=arial size=4>-= This Is Words =-</font>
-	</div>
-	<p>
-#	<font color="#ffffff" size=+1>The Headstone:</font>
-#	${mBlockStart}
-#	${mBlockEnd}
-	<font color="#ffffff" size=+1>A Review:</font>
-	${mBlockStart}
-	${reviewSmith}
-	${mBlockEnd}
+	</dd></dl>
 	<hr>
 	<font color="#ffffff" size=+1>The Lyrics:</font>
-	${mBlockStart}
-
+	<dl><dd>
 	<a name="Spacemen">
 	<font color=white size=+2><i>Come, Friendly Spacemen</i></font>
-		<a href="${base_url}/output.html#Spacemen">${icon_audio}</a>
+		<a href="output.html#Spacemen"><img border=0 src="images/audio.gif" align=top
+		height=25 width=66 alt="Audio"></a>
 	<p>
 	<dl>
 	<dd>
@@ -142,8 +81,8 @@
 	<br>Bring it on down like the Dove from above.
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		The <i>dove from above</i> comes down from above on the
@@ -170,8 +109,8 @@
 	<br>If it is, then Vale, Tchuss, Farewell!
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		Vale - Latin: <i>Farewell</i><br>
@@ -202,14 +141,13 @@
 	<p>
 	</dd>
 	</dl>
-	<font color=white size=-1>${pat} 1995</font>
+	<font color=white size=-1><a href="http://www.patfish.com">Pat Fish</a> 1995</font>
 	</a>
-
 	<hr>
-
 	<a name="Green">
 	<font color=white size=+2><i>God's Green Earth</i></font>
-		<a href="${base_url}/output.html#Green">${icon_audio}</a>
+		<a href="output.html#Green"><img border=0 src="images/audio.gif" align=top
+		height=25 width=66 alt="Audio"></a>
 	<p>
 	<dl>
 	<dd>
@@ -242,14 +180,13 @@
 	<p>
 	</dd>
 	</dl>
-	<font color=white size=-1>${pat} 1995</font>
+	<font color=white size=-1><a href="http://www.patfish.com">Pat Fish</a> 1995</font>
 	</a>
-
 	<hr>
-
 	<a name="Monks">
 	<font color=white size=+2><i>Monks of Kung Fu</i></font>
-		<a href="${base_url}/output.html#Monks">${icon_audio}</a>
+		<a href="output.html#Monks"><img border=0 src="images/audio.gif" align=top
+		height=25 width=66 alt="Audio"></a>
 	<p>
 	<dl>
 	<dd>
@@ -265,14 +202,13 @@
 	<p>
 	</dd>
 	</dl>
-	<font color=white size=-1>${pat} 1996</font>
+	<font color=white size=-1><a href="http://www.patfish.com">Pat Fish</a> 1996</font>
 	</a>
-
 	<hr>
-
 	<a name="Business">
 	<font color=white size=+2><i>Business and Work</i></font>
-		<a href="${base_url}/output.html#Business">${icon_audio}</a>
+		<a href="output.html#Business"><img border=0 src="images/audio.gif" align=top
+		height=25 width=66 alt="Audio"></a>
 	<p>
 	<dl>
 	<dd>
@@ -296,8 +232,8 @@
 	<br>It's coming apart, et je m'en fous.
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		Je m'en fous:  literally <i>I fuck myself of it</i>.
@@ -333,14 +269,13 @@
 	<p>
 	</dd>
 	</dl>
-	<font color=white size=-1>${pat} 1996</font>
+	<font color=white size=-1><a href="http://www.patfish.com">Pat Fish</a> 1996</font>
 	</a>
-
 	<hr>
-
 	<a name="Monsters">
 	<font color=white size=+2><i>Destroy All Monsters</i></font>
-		<a href="${base_url}/output.html#Monsters">${icon_audio}</a>
+		<a href="output.html#Monsters"><img border=0 src="images/audio.gif" align=top
+		height=25 width=66 alt="Audio"></a>
 	<p>
 	<dl>
 	<dd>
@@ -358,8 +293,8 @@
 	Si tu reves trop des monstres,
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		<i>If you dream too much about monsters,</i>
@@ -368,8 +303,8 @@
 	Tu reveilleras les monstres.
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		<i>You will wake the monsters up.</i>
@@ -378,8 +313,8 @@
 	Est-ce que tu connais ces monstres, vieux salaud?
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		<i>Do you know these monsters, you dirty old bastard?</i>
@@ -401,8 +336,8 @@
 	Cest pas trop sauvage, quoi?
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		<i>Not too fierce, huh?</i>
@@ -411,8 +346,8 @@
 	Cest pas trop sauvage pour toi.
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		<i>Not too fierce for you, pal.</i>
@@ -421,8 +356,8 @@
 	Est-ce que tu connais la loi, vieux canaille?
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		<i>Do you know the law, dirty old sod?</i>
@@ -449,22 +384,21 @@
 	<p>
 	</dd>
 	</dl>
-	<font color=white size=-1>${pat} 1995</font>
+	<font color=white size=-1><a href="http://www.patfish.com">Pat Fish</a> 1995</font>
 	</a>
-
 	<hr>
-
 	<a name="Stupid">
 	<font color=white size=+2><i>Stupid</i></font>
-		<a href="${base_url}/output.html#Stupid">${icon_audio}</a>
+		<a href="output.html#Stupid"><img border=0 src="images/audio.gif" align=top
+		height=25 width=66 alt="Audio"></a>
 	<p>
 	<dl>
 	<dd>
 	Two men with handguns in a stolen Granada;
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		Big Ford saloon car.  Often stolen
@@ -491,8 +425,8 @@
 	<br>This is the kind of guy who gets his clothes from Mister Byrite.
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		Crap clothes shop chain
@@ -503,8 +437,8 @@
 	<a href="http://www.armalite.com/">Armalite</a>?
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		British-made assault rifle, much abused in N. Ireland
@@ -526,8 +460,8 @@
 	<br>Hey stupid - it's all a little Mickey Mouse.
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		as in: <i>it's all a bit bloody small-time</i>
@@ -536,8 +470,8 @@
 	Na, Dummkopf - bitte bilden Sie sich aus.
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		German - <i>Please get yourself an education</i>
@@ -549,14 +483,13 @@
 	<p>
 	</dd>
 	</dl>
-	<font color=white size=-1>${pat} 1996</font>
+	<font color=white size=-1><a href="http://www.patfish.com">Pat Fish</a> 1996</font>
 	</a>
-
 	<hr>
-
 	<a name="Wonderful">
 	<font color=white size=+2><i>Everything Is Wonderful</i></font>
-		<a href="${base_url}/output.html#Wonderful">${icon_audio}</a>
+		<a href="output.html#Wonderful"><img border=0 src="images/audio.gif" align=top
+		height=25 width=66 alt="Audio"></a>
 	<p>
 	<dl>
 	<dd>
@@ -584,14 +517,13 @@
 	<p>
 	</dd>
 	</dl>
-	<font color=white size=-1>${pat} 1995</font>
+	<font color=white size=-1><a href="http://www.patfish.com">Pat Fish</a> 1995</font>
 	</a>
-
 	<hr>
-
 	<a name="Fern">
 	<font color=white size=+2><i>Fern, Schnell, Gut</i></font>
-		<a href="${base_url}/output.html#Fern">${icon_audio}</a>
+		<a href="output.html#Fern"><img border=0 src="images/audio.gif" align=top
+		height=25 width=66 alt="Audio"></a>
 	<p>
 	<dl>
 	<dd>
@@ -601,8 +533,8 @@
 	<br>Just me and The Government's Misery:
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		The Government's Misery is a close fiend of the band
@@ -615,8 +547,8 @@
 	Fern, schnell, gut
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		German: <i>Far, Fast, Well</i>:
@@ -630,8 +562,8 @@
 	why don't you turn off the lights?
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		<i>Geisterfahrer</i> - German "ghost riders".
@@ -650,8 +582,8 @@
 	Fern, schnell, gut Jungs, das ist der Weg.
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		<i>Far, fast, well boys that is The Way.</i>
@@ -660,8 +592,8 @@
 	Fern, schnell, gut - Jaegermeister direkt.
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		Far, fast, well - Jaegermeister direct.
@@ -670,8 +602,8 @@
 	geradeaus, weder links noch rechts:
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		Straight ahead - neither left nor right
@@ -682,8 +614,8 @@
 	<br>Drive through the night with Lee Scratch Perry.
 		<br>
 		<table border=0 cellpadding=0 cellspacing=0><tr><td>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
-		<img src="${images}/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
+		<img src="images/para.gif" alt="" width=25 height=10>
 		<br></td><td>
 		<font color=green>
 		The elephant from Outer Space.
@@ -694,14 +626,13 @@
 	<p>
 	</dd>
 	</dl>
-	<font color=white size=-1>${pat} 1995</font>
+	<font color=white size=-1><a href="http://www.patfish.com">Pat Fish</a> 1995</font>
 	</a>
-
 	<hr>
-
 	<a name="Cat">
 	<font color=white size=+2><i>Cat's Life</i></font>
-		<a href="${base_url}/output.html#Cats">${icon_audio}</a>
+		<a href="output.html#Cats"><img border=0 src="images/audio.gif" align=top
+		height=25 width=66 alt="Audio"></a>
 	<p>
 	<dl>
 	<dd>
@@ -752,14 +683,13 @@
 	<p>
 	</dd>
 	</dl>
-	<font color=white size=-1>${pat} 1996</font>
+	<font color=white size=-1><a href="http://www.patfish.com">Pat Fish</a> 1996</font>
 	</a>
-
 	<hr>
-
 	<a name="Ultimate">
 	<font color=white size=+2><i>My Ultimate Baby</i></font>
-		<a href="${base_url}/output.html#Ultimate">${icon_audio}</a>
+		<a href="output.html#Ultimate"><img border=0 src="images/audio.gif" align=top
+		height=25 width=66 alt="Audio"></a>
 	<p>
 	<dl>
 	<dd>
@@ -796,14 +726,13 @@
 	<p>
 	</dd>
 	</dl>
-	<font color=white size=-1>arranged by ${pat} words by 'Daniel Fantasy'</font>
+	<font color=white size=-1>arranged by <a href="http://www.patfish.com">Pat Fish</a> words by 'Daniel Fantasy'</font>
 	</a>
-
 	<hr>
-
 	<a name="Traffic">
 	<font color=white size=+2><i>We Are The Traffic</i></font>
-		<a href="${base_url}/output.html#Traffic">${icon_audio}</a>
+		<a href="output.html#Traffic"><img border=0 src="images/audio.gif" align=top
+		height=25 width=66 alt="Audio"></a>
 	<p>
 	<dl>
 	<dd>
@@ -851,17 +780,16 @@
 	<p>
 	</dd>
 	</dl>
-	<font color=white size=-1>${pat} 1991
+	<font color=white size=-1><a href="http://www.patfish.com">Pat Fish</a> 1991
 	Initially written at the
 	<a href="http://www.nitronic.com">Nitronic Research</a>
 	Wind Tunnels, Los Angeles, California.</font>
 	</a>
-
 	<hr>
-
 	<a name="Sputnik">
 	<font color=white size=+2><i>Sputnik</i></font>
-		<a href="${base_url}/output.html#Sputnik">${icon_audio}</a>
+		<a href="output.html#Sputnik"><img border=0 src="images/audio.gif" align=top
+		height=25 width=66 alt="Audio"></a>
 	<p>
 	<dl>
 	<dd>
@@ -904,11 +832,9 @@
 	<p>
 	</dd>
 	</dl>
-	<font color=white size=-1>${pat} 1996</font>
+	<font color=white size=-1><a href="http://www.patfish.com">Pat Fish</a> 1996</font>
 	</a>
-
 	<hr>
-
 	<a name="Saigon">
 	<font color=white size=+2><i>Radio Saigon</i></font>
 	<p>
@@ -927,11 +853,9 @@
 	<p>
 	</dd>
 	</dl>
-	<font color=white size=-1>${pat} 1996</font>
+	<font color=white size=-1><a href="http://www.patfish.com">Pat Fish</a> 1996</font>
 	</a>
-
 	<hr>
-
 	<a name="Star">
 	<font color=white size=+2><i>Hey, Star</i></font>
 	<p>
@@ -959,452 +883,16 @@
 	</dd>
 	</dl>
 	<font color=white size=-1>
-	<a href="http://www.adjective.com/htdb/jbc/articles/1994/0315.html">Wolfgang Tschegg</a>
+	<a href="https://jazzbutcher.com/mailinglist/1994/0315">Wolfgang Tschegg</a>
 	1993, arranged by Sumosonic</font>
 	</a>
-
-	${mBlockEnd}
-	${mAdj}
-
-#define	news.html
-	<head>
-	<title>Sumosonic News</title>
-	</head>
-	${mSumoNav}
+	</dd></dl>
+	<br clear=all>
+	<br><br>
 	<p>
 	<div align=center>
-	<font color="#ffffff" face=arial size=4>-= This Is News =-</font>
-	</div>
-	<p>
-#	<font color="#ffffff" size=+1>Site News:</font>
-#	${mBlockStart}
-#	The demo versions available here will soon be
-#	replaced by their album versions. 
-#	${mBlockEnd}
-	<font color="#ffffff" size=+1>Releases:</font>
-	${mBlockStart}
-	Album, &quot;This Is Sumo&quot; is released by CREATION
-	RECORDS on 26th JANUARY 1998. Catalog number is
-	CRECD 204. Please do make orders at your local record
-	store - you have no idea how much it helps us!
-	<p>
-	See ${linkExternal(http://www.sirendisc.com)}
-	${mBlockEnd}
-	<font color="#ffffff" size=+1>Upcoming Gigs:</font>
-	${mBlockStart}
-	Please see the <a href="${base_url}/live.html"><b>Live</b></a>
-	section for updates.
-	${mBlockEnd}
-	${mAdj}
-
-#define	product.html
-	<head>
-	<title>Sumosonic Product</title>
-	</head>
-	${mSumoNav}
-	<p>
-	<div align=center>
-	<font color="#ffffff" face=arial size=4>-= This Is Product =-</font>
-	</div>
-	<p>
-	See ${linkExternal(http://www.sirendisc.com)}
-	${mAdj}
-
-#define	output.html
-	<head>
-	<title>Sumosonic Output</title>
-	</head>
-	${mSumoNav}
-	<p>
-	<div align=center>
-	<font color="#ffffff" face=arial size=4>-= This Is Output =-</font>
-	</div>
-	<p>
-	<font color="#ffffff" size=+1>Current Releases:</font>
-	${mBlockStart}
-	Album, &quot;This Is Sumo&quot; is released by CREATION
-	RECORDS on 26th JANUARY 1998. Catalog number is
-	CRECD 204. Please do make orders at your local record
-	store - you have no idea how much it helps us!
-	<p>
-	See ${linkExternal(http://www.sirendisc.com)}
-	${mBlockEnd}
-	<font color="#ffffff" size=+1>Past Releases:</font>
-	${mBlockStart}
-	The first single <b>Come, Friendly Spacemen</b>,
-	released on 5th December 1996 by
-	Creation Records of London, distributed by 3M/VITAL. The
-	catalogue: CRESCD 242. 
-	<p>
-	The single features: 
-	<i>Come, Friendly Spacemen</i>, <i>Monks Of Kung Fu</i>,
-	and <i>Come, Friendly Spacemen</i> (version)
-	<p>
-	There is also a limited-edition vinyl 12&quot; single in the
-	clubs, featuring the long version of <i>Come, Friendly Spacemen</i>
-	alongside re-mixed by Tom Withers of drum n bass combo Override
-	and Johnny Octopus of Octopus Records. The &quot;Sushi&quot; mix
-	is a full on, dark-hearted progressive house tune with an evil
-	bass; the &quot;Jackson Hole&quot; Mix is an insane collision between
-	stadium pop and drum & bass which has to be heard to be believed.
-	The 12&quot; will also feature <i>Monks Of Kung Fu</i>.
-	Any DJ is urged to get in touch with Creation to get a copy. 
-	<p>
-	<b>Come, Friendly Spacemen</b> may be followed by a further single,
-	<b>God's Green Earth</b>.
-	${mBlockEnd}
-	<font color="#ffffff" size=+1>(Demo) Audio Tracks:</font>
-	${mBlockStart}
-	Please note - these versions are demo versions - not what ended up on
-	the release.
-	<br>These tracks are provided soley for their curiosity factor.
-	<table border=0 cellpadding=5 align=center width=90%>
-	<tr>
-		<td valign=top>
-			<a name="Spacemen">
-			<a href="${base_url}/words.html#Spacemen">
-			<i><font color=white>Come,
-			<nobr>Friendly Spacemen</font></i></nobr></a>
-			<br>
-			<a href="${audio}/come_friendly_spacemen.mp3"><font size=2 color="#00cc00">MP3</font></a>
-			</a>
-		</td>
-		<td valign=bottom>
-			The Single.  Catchy.
-		<br>
-		</td>
-	</tr>
-	<tr>
-		<td valign=top>
-			<a name="Monks">
-			<a href="${base_url}/words.html#Monks">
-			<nobr><i><font color=white>Monks
-			Of Kung Fu</font></i></nobr></a>
-			<br>
-			<a href="${audio}/monks_of_kung_fu.mp3"><font size=2 color="#00cc00">MP3</font></a>
-			</a>
-		</td>
-		<td valign=bottom>
-			B-side to the single.  Nice use of Chinese
-			and Tibetan samples.
-		<br>
-		</td>
-	</tr>
-	<tr>
-		<td valign=top>
-			<a name="Green">
-			<a href="${base_url}/words.html#Green">
-			<nobr><i><font color=white>God's
-			Green Earth</font></i></nobr></a>
-			<br>
-			<a href="${audio}/gods_green_earth.mp3"><font size=2 color="#00cc00"></font>MP3</a>
-			</a>
-		</td>
-		<td valign=bottom>
-			Slow, spooky, sparse beat.
-			Executive summary: <i>"Ain't nobody gonna miss
-			you when you're gone"</i>
-		<br>
-		</td>
-	</tr>
-	<tr>
-		<td valign=top>
-			<a name="Business">
-			<a href="${base_url}/words.html#Business">
-			<nobr><i><font color=white>Business
-			And Work</font></i></nobr></a>
-			<br>
-			<a href="${audio}/business_and_work.mp3"><font size=2 color="#00cc00">MP3</font></a>
-			</a>
-		</td>
-		<td valign=bottom>
-			Whoooaa! Great beat, greater bassline.
-			<i>"anti-stupidity and environmentally friendly"</i>
-		<br>
-		</td>
-	</tr>
-	<tr>
-		<td valign=top>
-			<a name="Monsters">
-			<a href="${base_url}/words.html#Monsters">
-			<nobr><i><font color=white>Destroy All Monsters </font></i></nobr></a>
-			<br>
-			<a href="${audio}/destroy_all_monsters.mp3"><font size=2 color="#00cc00">MP3</font></a>
-			</a>
-		</td>
-		<td valign=bottom>
-			French.  Samples.  Stupid fun.
-		<br>
-		</td>
-	</tr>
-	<tr>
-		<td valign=top>
-			<a name="Stupid">
-			<a href="${base_url}/words.html#Stupid">
-			<nobr><i><font color=white>Hey,
-			Stoopid!</font></i></nobr></a>
-			<br>
-			<a href="${audio}/hey_stoopid.mp3"><font size=2 color="#00cc00">MP3</font></a>
-			</a>
-		</td>
-		<td valign=bottom>
-			Sensitive ranting, light beat.
-			Good analogue synth sweeps.
-		<br>
-		</td>
-	</tr>
-	<tr>
-		<td valign=top>
-			<a name="Wonderful">
-			<a href="${base_url}/words.html#Wonderful">
-			<i><font color=white>Everything
-			<nobr>Is Wonderful</font></i></nobr></a>
-			<br>
-			<a href="${audio}/everything_is_wonderful.mp3"><font size=2 color="#00cc00">MP3</font></a>
-			</a>
-		</td>
-		<td valign=bottom>
-			The verses are superb, good beat.
-		<br>
-		</td>
-	</tr>
-	<tr>
-		<td valign=top>
-			<a name="Fern">
-			<a href="${base_url}/words.html#Fern">
-			<nobr><i><font color=white>Fern,
-			Schnell, Gut</font></i></nobr></a>
-			<br>
-			<a href="${audio}/fern_schnell_gut.mp3"><font size=2 color="#00cc00">MP3</font></a>
-			</a>
-		</td>
-		<td valign=bottom>
-			Dunno what this's about.  Low freq kick.
-		<br>
-		</td>
-	</tr>
-	<tr>
-		<td valign=top>
-			<a name="Cat">
-			<a href="${base_url}/words.html#Cat">
-			<nobr><i><font color=white>Cat's
-			Life</font></i></nobr></a>
-			<br>
-			<a href="${audio}/cats_life.mp3"><font size=2 color="#00cc00">MP3</font></a>
-			</a>
-		</td>
-		<td valign=bottom>
-			The (somewhat) Luv Song.  Nice bleeping synth hook
-		<br>
-		</td>
-	</tr>
-#	<tr>
-#		<td valign=top>
-#			<a name="Ultimate">
-#			<a href="${base_url}/words.html#Ultimate">
-#			<nobr><i><font color=white>My Ultimate Baby</font></i></nobr></a>
-#			<br>
-#			<a href="${audio}/my_ultimate_baby.mp3"><font size=2 color="#00cc00">MP3</font></a>
-#			</a>
-#		</td>
-#		<td valign=bottom>
-#			Restructured movie dialog samples by the sound of it.
-#		<br>
-#		</td>
-#	</tr>
-	<tr>
-		<td valign=top>
-			<a name="Traffic">
-			<a href="${base_url}/words.html#Traffic">
-			<nobr><i><font color=white>We Are The Traffic</font></i></nobr></a>
-			<br>
-			<a href="${audio}/we_are_the_traffic.mp3"><font size=2 color="#00cc00">MP3</font></a>
-			</a>
-		</td>
-		<td valign=bottom>
-			The beatings live on.
-		<br>
-		</td>
-	</tr>
-	<tr>
-		<td valign=top>
-			<a name="Sputnik">
-			<a href="${base_url}/words.html#Sputnik">
-			<nobr><i><font color=white>Sputnik</font></i></nobr></a>
-			<br>
-			<a href="${audio}/sputnik.mp3"><font size=2 color="#00cc00">MP3</font></a>
-			</a>
-		</td>
-		<td valign=bottom>
-			Sweet &amp; light.  Appears to concern satellites.
-		<br>
-		</td>
-	</tr>
-	</table>
-	${mBlockEnd}
-	<font color="#ffffff" size=+1>Illegal Video Samples:</font>
-	${mBlockStart}
-	<table border=0>
-	<tr>
-		<td valign=middle align=left>
-			1634K <a href="${video}/sumosonic_monks_of_kung_fu.mp4">
-				<i>Monks of Kung Fu</i></a>
-			<br>
-			1461K <a href="${video}/sumosonic_sputnik.mp4">
-				<i>Sputnik</i></a>
-			<br>
-			1655K <a href="${video}/sumosonic_gods_green_earth.mp4">
-				<i>God's Green Earth</i></a>
-		</td>
-		<td valign=middle>
-			<font size=-2 color=#00ff00> QuickTime videos </font>
-			<br>
-			<font size=-2> (thanks to Ward Travis for converting!) </font>
-		</td>
-
-	</tr>
-	</table>
-	${mBlockEnd}
-	<font color="#ffffff" size=+1>Illegal MIDI Soundfile:</font>
-	${mBlockStart}
-	<table border=0>
-	<tr>
-		<td valign=middle align=left>
-			33K <a href="${audio}/spacemen.mid">
-				<i>Come Friendly Spacemen</i></a>
-			<br>
-			This a midi file of the actual sequence used in the recording.
-		</td>
-	</tr>
-	</table>
-	${mBlockEnd}
-	${mAdj}
-
-#define	live.html
-	<head>
-	<title>Sumosonic Live</title>
-	</head>
-	${mSumoNav}
-	<p>
-	<div align=center>
-	<font color="#ffffff" face=arial size=4>-= This Is Live =-</font>
-	</div>
-	<p>
-#	<font color="#ffffff" size=+1>Upcoming gigs:</font>
-#	<font color="#ffffff" size=+1>What you can see:</font>
-	<font color="#ffffff" size=+1>What you've missed:</font>
-	${mBlockStart}
-	11Mar1997 - Live Debut: Powerhaus, London.
-	<p>
-	3Aug1997 - Sundaze Festival, Rushton Hall, Kettering,
-	Northamptonshire.
-	<p>
-	9Aug1997 - The Monarch, Camden, London NW1.
-	<p>
-	29Aug1997 - The Rockin' Horse, Northampton.
-	<br>&nbsp;&nbsp;&nbsp;&nbsp;<i>W/ D.J.  Johnny Octopus (Octopus Records) at the controls.</i>
-	<p>
-	17Jan1998 - Mole's Club, Bath - 01225333447 (tel).
-	<p>
-	20Jan1998 - Garage, London - onstage: 10pm
-	<p>
-	28Jan1998 - The Richmond, Brighton
-	<p>
-	30Jan1998 - Louisianna Club, Bristol
-	<p>
-	31Jan1998 - The Cavern, Exter
-	<p>
-	4Feb1998 - Black Bottom Club, Northampton
-	<br>&nbsp;&nbsp;&nbsp;&nbsp;<i>W/ D.J.  Johnny Octopus and other D.J.s</i>
-	<p>
-	14Apr1998 - 
-	Water Rats, Gray's Inn Rd, London
-	<p>
-	18Apr1998 - 
-	The Cy-Bar, Middle St, Brighton
-	<p>
-	8May1998 -
-	Lousianna Club, Wapping Rd, Bristol
-	<p>
-	1Aug1998 - Sundaze Festival, Rothwell, Northants, UK
-	<p>
-	8Sep1998 - The Concorde, Brighton
-	<br>
-	Brighton went rather well. Joe Foster came down and declared himself outraged
-	that Sumo wasn't making any money. From one Creation loony to another...howdy
-	ho!!
-	<p>
-	8Sep1998 - The Concorde, Brighton
-	19Sep1998 - APOCALYPSE SUMO
-	<div align=right>
-	<table border=0 cellpadding=0 cellspacing=5 width=90%>
-	<tr><td>When   </td><td> Saturday 19th September 1998</td></tr>
-	<tr><td>What    </td><td> All-night up-country old skool rave up.
-	Sumosonic, 2 other live bands and DJs
-	Outdoor concert space, with large pub attached.
-	Lots of easy parking.
-	Camping.
-	Pub has no clock! (That is to say, it's a Late One)</td></tr>
-	<tr><td>Where   </td><td> Saint John Arms, Melchbourne</td></tr>
-	<tr><td>How      </td><td> Melchbourne is near Rushden in the Northamptonshire/Cambridgeshire 
-	badlands. Take a car. From Northampton (M1 junction 15) take the
-	A-45
-	direction Wellingborough. Go on past Wellingborough to Higham
-	Ferrers.
-	At Higham Ferrers (Chowns Hill Roundabout) take the A-6
-	direction 
-	Bedford. After a couple of hundred yards, turn left onto
-	Kimbolton Road.
-	Follow signs on local roads for Newton Bromswold, then Yielden.
-	Follow 
-	the road through Yielden and on through open country for two or
-	three 
-	miles. The Saint John Arms stands alone in the middle of nowhere
-	at a 
-	crossroads. You'll be glad you made the trip, chaps. 
-	</td></tr>
-	</table>
-	</div>
-	${mBlockEnd}
-	<font color="#ffffff" size=+1>What has been captured:</font>
-	${mBlockStart}
-	From the Sumosonic live debut
-	at the Powerhaus, London Tuesday 11th March '97.
-	<p>
-	Snapped &amp; Copyright: John Devitofranceschi.
-	<p>
-	<a href="${images}/sumo1.jpg"><img
-		src="${images}/thumb_sumo1.jpg"
-		alt="[Debut Photo]" width=159 height=105 border=0></a>
-	<a href="${images}/sumo2.jpg"><img
-		src="${images}/thumb_sumo2.jpg"
-		alt="[Debut Photo]" width=159 height=105 border=0></a>
-	<a href="${images}/sumo3.jpg"><img
-		src="${images}/thumb_sumo3.jpg"
-		alt="[Debut Photo]" width=159 height=105 border=0></a>
-	<a href="${images}/sumo4.jpg"><img
-		src="${images}/thumb_sumo4.jpg"
-		alt="[Debut Photo]" width=159 height=105 border=0></a>
-	<a href="${images}/sumo5.jpg"><img
-		src="${images}/thumb_sumo5.jpg"
-		alt="[Debut Photo]" width=159 height=105 border=0></a>
-	<a href="${images}/sumo6.jpg"><img
-		src="${images}/thumb_sumo6.jpg"
-		alt="[Debut Photo]" width=159 height=105 border=0></a>
-	<a href="${images}/sumo7.jpg"><img
-		src="${images}/thumb_sumo7.jpg"
-		alt="[Debut Photo]" width=159 height=105 border=0></a>
-	<a href="${images}/sumo8.jpg"><img
-		src="${images}/thumb_sumo8.jpg"
-		alt="[Debut Photo]" width=159 height=105 border=0></a>
-	<a href="${images}/sumo9.jpg"><img
-		src="${images}/thumb_sumo9.jpg"
-		alt="[Debut Photo]" width=159 height=105 border=0></a>
-	<a href="${images}/sumo10.jpg"><img
-		src="${images}/thumb_sumo10.jpg"
-		alt="[Debut Photo]" width=159 height=105 border=0></a>
-	<a href="${images}/sumo11.jpg"><img
-		src="${images}/thumb_sumo11.jpg"
-		alt="[Debut Photo]" width=159 height=105 border=0></a>
-	${mBlockEnd}
-	${mAdj}
+	<a href="main.html"><img border=0
+		hspace=10 vspace=10
+		src="images/sumo_logo.gif"
+		height=31 width=202 alt="Sumosonic"></a>
+	</div></body></html>
